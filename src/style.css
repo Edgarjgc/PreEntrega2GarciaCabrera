@@ -33,7 +33,7 @@ header .containerBrand img {
 }
 
 /* containerList */
-header .containerItemList {
+header .containerMenuList {
   width: 70%;
 
   height: 100%;
@@ -42,14 +42,14 @@ header .containerItemList {
   justify-content: flex-end;
 }
 
-header .containerItemList ul {
+header .containerMenuList ul {
   list-style: none;
   display: flex;
   margin: 0;
   justify-content: flex-end;
 }
 
-header .containerItemList ul li {
+header .containerMenuList ul li {
   text-decoration: none;
 
   margin: 0 0 0 50px;

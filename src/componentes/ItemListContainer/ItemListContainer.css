@@ -1,0 +1,16 @@
+div.ItemListContainer {
+  margin-left: 200px;
+  padding: 1px 16px;
+}
+
+@media screen and (max-width: 780px) {
+  div.content {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  div.content {
+    margin-left: 0;
+  }
+}

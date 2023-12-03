@@ -1,5 +1,5 @@
 import Brand from "./Brand";
-import ItemListContainer from "./ItemListContainer";
+import MenuListContainer from "./MenuListContainer";
 import CartWidget from "./CartWidget";
 
 const NavBar = () => {
@@ -8,8 +8,8 @@ const NavBar = () => {
       <div className="containerBrand">
         <Brand />
       </div>
-      <nav className="containerItemList">
-        <ItemListContainer
+      <nav className="containerMenuList">
+        <MenuListContainer
           itemOne="Chemicals"
           itemTwo="Parts"
           itemThree="Equipment"
