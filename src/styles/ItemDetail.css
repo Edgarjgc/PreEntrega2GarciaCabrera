@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.itemDetail {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 60px);
+}
+
+/* containerLeft */
+.itemDetail .containerLeft {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+
+.itemDetail .containerLeft .cardImg {
+  display: flex;
+  justify-content: center;
+}
+
+.itemDetail .containerLeft Img {
+  width: 100%;
+}
+
+/* containerRigth */
+.itemDetail .containerRigth {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 600px;
+}
+
+.itemDetail .containerRigth .descriptionItem {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemDetail .containerRigth .cardDescription {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 450px;
+}
+
+/* title */
+.itemDetail .containerRigth .cardDescription .title {
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+/* description */
+.itemDetail .containerRigth .cardDescription .description {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+
+.itemDetail .containerRigth .cardDescription .description .descriptionTitle {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.itemDetail .containerRigth .cardDescription .description .parrafo {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* stock */
+.itemDetail .containerRigth .cardDescription .cant {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* precio */
+.itemDetail .containerRigth .cardDescription .precio {
+  color: crimson;
+  font-weight: bold;
+  font-size: 55px;
+  margin: 10px 0;
+}
+
+/* buttons */
+.itemDetail .containerRigth .buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 80px;
+  margin: 10px 0;
+}
+
+.itemDetail .containerRigth .buttons .addCantCart {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid crimson;
+  border-radius: 50px;
+  height: 60px;
+}
+
+.itemDetail .containerRigth .buttons .addCantCart span {
+  font-weight: 20px;
+  margin: 0 10px;
+}
+
+.itemDetail .containerRigth .buttons .addCantCart div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.itemDetail .containerRigth .buttons .addCantCart div #quitar,
+.itemDetail .containerRigth .buttons .addCantCart div #aumentar {
+  background-color: crimson;
+  border: none;
+  color: white;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+.itemDetail .containerRigth .buttons #detalles {
+  width: 48%;
+  background-color: crimson;
+  border-radius: 50px;
+  color: white;
+  border: none;
+  font-size: 21px;
+}

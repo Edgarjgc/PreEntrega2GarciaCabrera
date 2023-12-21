@@ -1,6 +1,12 @@
 import brandlogo from "../../img/brandlogo.svg";
+import { Link } from "react-router-dom";
+
 const Brand = () => {
-  return <img src={brandlogo} alt="Car Wash" title="G&G"></img>;
+  return (
+    <Link to="/">
+      <img src={brandlogo} alt="G&G" title="G&G"></img>
+    </Link>
+  );
 };
 
 export default Brand;

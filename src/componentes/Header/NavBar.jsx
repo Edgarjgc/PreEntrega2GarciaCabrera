@@ -11,7 +11,7 @@ const NavBar = () => {
       <nav className="containerMenuList">
         <MenuListContainer
           itemOne="Chemicals"
-          itemTwo="Parts"
+          itemTwo="Accesories"
           itemThree="Equipment"
           itemFour="Services"
         />

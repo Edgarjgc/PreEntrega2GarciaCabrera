@@ -1,12 +1,25 @@
-const ItemListContainer = (props) => {
+import { Link } from "react-router-dom";
+
+const MenuListContainer = (props) => {
   return (
     <ul>
-      <li> {props.itemOne}</li>
-      <li> {props.itemTwo}</li>
-      <li> {props.itemThree}</li>
-      <li> {props.itemFour}</li>
+      <li>
+        <Link to="category/Chemicals">{props.itemOne}</Link>
+      </li>
+      <li>
+        {" "}
+        <Link to="category/Accesories">{props.itemTwo}</Link>
+      </li>
+      <li>
+        {" "}
+        <Link to="category/Equipment">{props.itemThree}</Link>
+      </li>
+      <li>
+        {" "}
+        <Link to="category/Services">{props.itemFour}</Link>
+      </li>
     </ul>
   );
 };
 
-export default ItemListContainer;
+export default MenuListContainer;
